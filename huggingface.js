@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 
+# Inference API
 async function query(data) {
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/cagliostrolab/animagine-xl-3.0",
